@@ -1,0 +1,30 @@
+.site-header {
+    background: #1f74cf;
+    padding: 1.5em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;  /* сбросить стили ссылки */
+    font-size: 1.5em;  /* выставить размер текста */
+    color: #636363;  /* выставить серый цвет */
+}
+
+.nav-link {  /* ссылки в меню */
+    color: white;
+    transition: 0.3s ease-in-out;  /* анимировать все свойства 0.3сек, плавно */
+
+    display: block;
+    padding: 0 2em;
+}
+
+.nav-link:hover { /* когда на элемент наводится курсор мыши */
+    font-size: 2em;  /* текст ссылки увеличится */
+    border-bottom: 0.02em solid white;
+    /* рамка-снизу: 0.25о.е., сплошная, белая */
+}
+
+.nav {
+    display: inline-block;  /* расположить элементы списка в строчку */
+    text-align: center; /* оцентровать текст посередине */
+}
