@@ -1,0 +1,36 @@
+.container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.block {
+    margin-bottom: 10px;
+    padding: 10px;
+    min-height: 50px;
+    color: #cc0000;
+    border: 2px dashed #cccccc;
+}
+
+.col1 {
+    float: left;
+    width: 65px;
+    margin-right: 10px;
+    background: #fffad9;
+}
+
+.col2 {
+    float: left;
+    width: 80px;
+}
+
+.col3 {
+    float: right;
+    width: 65px;
+}
+
+.footer {
+    clear: both;  /* отменить действие float с обеих сторон */
+}
+
+
+
