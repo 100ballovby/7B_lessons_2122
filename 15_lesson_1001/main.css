@@ -1,0 +1,11 @@
+.btn {
+    color: #11a42a;
+    border: 2px solid #11a42a;
+    padding: 1em;
+    border-radius: 3em;
+    cursor: pointer; /* чтобы курсор менялся при наведении на мышку  */
+}
+
+.change {
+    color: #1f74cf;
+}
