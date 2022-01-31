@@ -1,0 +1,15 @@
+.card {
+    width: 25%;
+    max-width: 350px;
+    padding: 2em;
+    margin: 1em 0.5em;
+    background: #d1d1d1;
+    border: 0.2em solid #515151;
+}
+
+.card-hit {
+    width: 100%;
+    max-width: 100%;
+    border: 0.2em solid #ff5c5c;
+}
+
