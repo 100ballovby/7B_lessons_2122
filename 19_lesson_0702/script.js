@@ -1116,8 +1116,13 @@ function create_artists(array) {
         p.innerHTML = array[i]['Nationality'];
 
         if (array[i]['EndDate'] !== 0) {  // если у художника есть дата смерти
-            p.classList.add('dead'); // добавляем соответствующий класс
-        }
+            h1.classList.add('dead'); // добавляем соответствующий класс
+        };
+        if (array[i]['Gender'] === 'Female') { // если в ключе Gender -> Female
+            artist.style.borderColor = '#ff4040'  // сделать рамку красной
+        } else if (array[i]['Gender'] === 'Male') {  // если в ключе Gender -> Male
+            artist.style.borderColor = '#41b6e7'; // сделать рамку синей
+        };
 
         artist.appendChild(h1);  // добавляю к карточке художника имя
         artist.appendChild(p);  // добавляю к карточке художника национальность
