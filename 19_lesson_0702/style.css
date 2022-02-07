@@ -1,0 +1,20 @@
+.artists {
+    display: flex;  /* все объекты подстраиваются под размер экрана */
+    flex-direction: row;  /* все объекты располагаются в строчку */
+    flex-wrap: wrap;  /* если не помещается в строку, перенести на следующую */
+    justify-content: space-between;  /* автоматические отступы */
+}
+
+.card {
+    width: 20%;
+    padding: 1em;
+    border: 0.2em solid #a9a9a9;
+    border-radius: 2em;
+    margin-bottom: 0.5em;
+}
+
+.dead {
+    color: #868686;
+    border: 0.2em solid black;
+}
+
