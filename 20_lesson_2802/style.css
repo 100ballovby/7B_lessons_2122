@@ -1,0 +1,10 @@
+table {
+    margin: 0 auto;
+    border: 0.1em solid orange;
+    border-collapse: collapse;  /* отключаю промежутки между ячеек */
+}
+
+td, th {
+    padding: 1em;
+    border: 0.1em solid #41dff5;
+}
