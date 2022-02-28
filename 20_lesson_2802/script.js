@@ -414,7 +414,18 @@ function show_debt(list) {
     let table = document.querySelector('table');
     for (let i = 0; i < list.length; i++) {
         let tr = document.createElement('tr');
-        for (let j = 0; j < 4; j++) {}
+
+        for (let key in list[i]) {  // для каждого ключа в объекте
+            let td = document.createElement('td');  // создать ячейку таблицы
+
+            if (key === 'annual_debt_increase_pct') {
+                td.innerHTML = '% ' + list[i][key] * 100;
+            } else {
+                td.innerHTML = list[i][key];
+            }
+
+            tr.appendChild(td);  // добавить ячейку в строку
+        }
 
         table.appendChild(tr);
     }
