@@ -1,10 +1,22 @@
 table {
     margin: 0 auto;
-    border: 0.1em solid orange;
     border-collapse: collapse;  /* отключаю промежутки между ячеек */
 }
 
 td, th {
     padding: 1em;
-    border: 0.1em solid #41dff5;
 }
+
+th {
+    border-bottom: 0.4em solid black;
+}
+
+td {
+    border-bottom: 0.2em solid #6b6b6b;
+}
+
+tr:nth-child(even) { /* каждая четная строчка таблицы */
+    background: #eaeaea;  /* имеет другой фон */
+}
+
+
