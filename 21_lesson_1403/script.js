@@ -176,6 +176,7 @@ function create_table(obj) {
         let tr = document.createElement('tr');
         let name = document.createElement('td');
         let rate = document.createElement('td');
+
         name.innerHTML = key;
         rate.innerHTML = obj['rates'][key];
 
