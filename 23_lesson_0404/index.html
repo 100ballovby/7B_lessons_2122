@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="" method="POST" class="contact-form">
+
+    <fieldset> <!-- область формы для группировки полей  -->
+        <legend>Контактная информация</legend>  <!-- название области -->
+
+        <label for="username">Ваше имя:
+            <input type="text" name="user" id="username">
+        </label>
+
+        <label for="mail">Ваша почта:
+            <input type="text" name="email" id="mail">
+        </label>
+
+        <p>Ваш пол:</p>
+        <input type="radio" id="women" name="gender"><label for="women">Женский</label><br>
+        <input type="radio" id="man" name="gender"><label for="man">Мужской</label><br>
+        <input type="radio" id="idk" name="gender"><label for="idk">Не определился</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Обращение</legend>
+        <label for="question">Ваше обращение:</label>
+        <textarea id="question" name="question" rows="5" cols="60"></textarea>
+
+    </fieldset>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

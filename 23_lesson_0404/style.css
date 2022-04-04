@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact-form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 1.5em;
+    border: 0.3em solid #1d85d2;
+    border-radius: 2em;
+}
+
+fieldset {
+    padding: 0.5em;
+    border: 0.3em solid #1d85d2;
+    background: #fff4e8;
+    border-radius: 2em;
+    margin-bottom: 1em;
+}
+
+legend {
+    padding: 0.5em;
+    border-radius: 2em;
+    background: #1d85d2;
+    color: #fff;
+}
+
+input[type=text],
+input[type=password] {
+    padding: 0.5em;
+    border-radius: 2em;
+    border: 0.01em solid #ffffff;
+}
+
+input:focus,
+textarea:focus {  /* когда кликают на инпут */
+    outline: none;  /* убрать обводку */
+}
+
+textarea {
+    padding: 1em;
+    border-radius: 2em;
+    border: 0.01em solid #ffffff;
+}
+
+
+
+
