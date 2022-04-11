@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>Форма</h1>
+
+<form action="" class="contact-form">
+    <fieldset>
+        <legend>Контакты</legend>
+        <div class="mb-2">
+            <input type="text" id="user">
+            <label for="user">ФИО</label>
+        </div>
+        <div class="mb-2">
+            <input type="text" id="phone">
+            <label for="phone">Номер телефона</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Выбор функций</legend>
+
+        <div class="mb-2">
+            <label for="color">Цвет:</label>
+            <select name="color" id="color">  <!-- список с пунктами  -->
+                <option value="black">Черный</option>  <!-- пункты для выбора -->
+                <option value="red">Красный</option>
+                <option value="yellow">Желтый</option>
+                <option value="purple">Фиолетовый</option>
+                <option value="blue">Синий</option>
+            </select>
+        </div>
+        <div class="mb-2">
+            <label for="box">Наличие ящиков:</label>
+            <select name="box" id="box">  <!-- список с пунктами  -->
+                <option value="yes">Да</option>  <!-- пункты для выбора -->
+                <option value="no">Нет</option>
+            </select>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>Количество и дата</legend>
+
+        <div class="mb-2">
+            <label for="count">Количество</label>
+            <input type="number" id="count" min="1" max="5">
+            <!-- поле выбора количества. Min - минимальное число, max - максимальное -->
+        </div>
+        <div class="mb-2">
+            <label for="date">Дата доставки:</label>
+            <input type="date" id="date" max="2023-01-01">
+        </div>
+        <div class="mb-2">
+            <input type="submit" value="Отправить" class="btn">
+            <input type="reset" value="Сбросить" class="btn btn-reset">
+            <!-- кнопка, которая сбрасывает текст, написанный в форме -->
+        </div>
+
+    </fieldset>
+</form>
+
+</body>
+</html>

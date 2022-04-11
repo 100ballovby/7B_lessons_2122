@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.contact-form {
+    width: 40%;
+    border: 0.1em solid black;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+fieldset {
+    padding: 1em;
+}
+
+legend {
+    padding: 0.5em;
+    background: #000;
+    color: #fff;
+}
+
+.mb-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.btn {
+    margin: 1em;
+    padding: 1.5em;
+    border: 1px solid #60a9fc;
+    border-radius: 2em;
+    background: #60a9fc;
+    color: #fff;
+}
+
+.btn-reset {
+    border-color: #d9a62f;
+    background: #fff;
+    color: #d9a62f;
+}
+
+input {
+    padding: 1.5em;
+    border: 1px solid black;
+}
+
+input[type="text"],
+input[type="number"] {
+    border-radius: 2em;
+}
+
+input:focus {
+    outline: none;
+}
